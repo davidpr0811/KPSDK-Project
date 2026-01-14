@@ -1,0 +1,205 @@
+/**
+ * OPCODE EXTRACTOR
+ *
+ * Extracts all 86 opcode handlers from p.js and creates a mapping
+ */
+
+const fs = require('fs');
+
+// Read p.js
+const code = fs.readFileSync('p.js', 'utf8');
+
+// Extract the handler array section (lines 128-444)
+const lines = code.split('\n');
+const handlerSection = lines.slice(127, 444).join('\n');
+
+// All 86 opcode handlers with their operations
+const OPCODES = [
+    // 0
+    { name: 'STRICT_EQUAL', operation: '===', params: 2, description: 'Strict equality comparison' },
+    // 1
+    { name: 'INSTANCEOF', operation: 'instanceof', params: 2, description: 'instanceof operator' },
+    // 2
+    { name: 'MULTIPLY_VAR', operation: '*', params: 2, description: 'Multiplication (both from variables)' },
+    // 3
+    { name: 'EQUAL', operation: '==', params: 2, description: 'Equality comparison' },
+    // 4
+    { name: 'DIVIDE_CONST_VAR', operation: '/', params: 2, description: 'Division (const / var)' },
+    // 5
+    { name: 'TERNARY_OR_JUMP', operation: 'x ? x : jump', params: 1, description: 'Ternary or conditional jump' },
+    // 6
+    { name: 'DELETE_PROPERTY', operation: 'delete', params: 2, description: 'Delete object property' },
+    // 7
+    { name: 'LEFT_SHIFT_VAR', operation: '<<', params: 2, description: 'Left shift (both vars)' },
+    // 8
+    { name: 'BITWISE_OR_VAR', operation: '|', params: 2, description: 'Bitwise OR (both vars)' },
+    // 9
+    { name: 'TYPEOF', operation: 'typeof', params: 1, description: 'typeof operator' },
+    // 10
+    { name: 'NEW_OBJECT', operation: '{}', params: 0, description: 'Create empty object' },
+    // 11
+    { name: 'BITWISE_AND_CONST_VAR', operation: '&', params: 2, description: 'Bitwise AND (const & var)' },
+    // 12
+    { name: 'SET_VAR_UNDEFINED', operation: 'var = undefined', params: 1, description: 'Set variable to undefined' },
+    // 13
+    { name: 'CALL_FUNC_1ARG', operation: 'func(arg)', params: 2, description: 'Call function with 1 argument' },
+    // 14
+    { name: 'CALL_FUNC_2ARGS', operation: 'func(arg1, arg2)', params: 3, description: 'Call function with 2 arguments' },
+    // 15
+    { name: 'ADD_VAR_CONST', operation: '+', params: 2, description: 'Addition (var + const)' },
+    // 16
+    { name: 'ADD_CONST', operation: '+', params: 2, description: 'Addition (const + const)' },
+    // 17
+    { name: 'MODULO_VAR', operation: '%', params: 2, description: 'Modulo (both vars)' },
+    // 18
+    { name: 'SUBTRACT_VAR', operation: '-', params: 2, description: 'Subtraction (both vars)' },
+    // 19
+    { name: 'SET_OUTER_VAR', operation: 'outer[name] = value', params: 2, description: 'Set variable in outer scope' },
+    // 20
+    { name: 'GET_PROMISE', operation: 'Promise', params: 0, description: 'Get Promise constructor' },
+    // 21
+    { name: 'RIGHT_SHIFT_VAR_CONST', operation: '>>', params: 2, description: 'Right shift (var >> const)' },
+    // 22
+    { name: 'LEFT_SHIFT_CONST_VAR', operation: '<<', params: 2, description: 'Left shift (const << var)' },
+    // 23
+    { name: 'MULTIPLY_CONST_VAR', operation: '*', params: 2, description: 'Multiplication (const * var)' },
+    // 24
+    { name: 'SET_VAR_TO_THIS', operation: 'var = this', params: 1, description: 'Set variable to current this' },
+    // 25
+    { name: 'RIGHT_SHIFT_VAR', operation: '>>', params: 2, description: 'Right shift (both vars)' },
+    // 26
+    { name: 'LESS_THAN_VAR_CONST', operation: '<', params: 2, description: 'Less than (var < const)' },
+    // 27
+    { name: 'SET_FINALLY_TARGET', operation: 'finally target', params: 1, description: 'Set finally block target' },
+    // 28
+    { name: 'SUBTRACT_VAR_CONST', operation: '-', params: 2, description: 'Subtraction (var - const)' },
+    // 29
+    { name: 'KEYS_OF_OBJECT', operation: 'Object.keys', params: 1, description: 'Get object keys' },
+    // 30
+    { name: 'LESS_THAN_VAR', operation: '<', params: 2, description: 'Less than (both vars)' },
+    // 31
+    { name: 'BITWISE_OR_CONST', operation: '|', params: 2, description: 'Bitwise OR (const | const)' },
+    // 32
+    { name: 'RETURN', operation: 'return', params: 0, description: 'Return from function' },
+    // 33
+    { name: 'LESS_THAN_CONST', operation: '<', params: 2, description: 'Less than (const < const)' },
+    // 34
+    { name: 'BITWISE_AND_VAR', operation: '&', params: 2, description: 'Bitwise AND (both vars)' },
+    // 35
+    { name: 'DIVIDE_VAR_CONST', operation: '/', params: 2, description: 'Division (var / const)' },
+    // 36
+    { name: 'IN_VAR', operation: 'in', params: 2, description: 'in operator (both vars)' },
+    // 37
+    { name: 'BITWISE_OR_CONST_VAR', operation: '|', params: 2, description: 'Bitwise OR (const | var)' },
+    // 38
+    { name: 'JUMP', operation: 'goto', params: 1, description: 'Unconditional jump' },
+    // 39
+    { name: 'GREATER_EQUAL_VAR_CONST', operation: '>=', params: 2, description: 'Greater or equal (var >= const)' },
+    // 40
+    { name: 'PROPERTY_GET', operation: 'obj[key]', params: 2, description: 'Get object property' },
+    // 41
+    { name: 'CALL_FUNC_0ARGS', operation: 'func()', params: 1, description: 'Call function with 0 arguments' },
+    // 42
+    { name: 'IN_CONST_VAR', operation: 'in', params: 2, description: 'in operator (const in var)' },
+    // 43
+    { name: 'PROPERTY_SET', operation: 'obj[key] = value', params: 3, description: 'Set object property' },
+    // 44
+    { name: 'SET_LOCAL_VAR', operation: 'local[name] = value', params: 2, description: 'Set local variable' },
+    // 45
+    { name: 'DIVIDE_VAR', operation: '/', params: 2, description: 'Division (both vars)' },
+    // 46
+    { name: 'LOGICAL_NOT', operation: '!', params: 1, description: 'Logical NOT' },
+    // 47
+    { name: 'STRICT_EQUAL_CONST_VAR', operation: '===', params: 2, description: 'Strict equality (const === var)' },
+    // 48
+    { name: 'NEW_ARRAY_WITH_SIZE', operation: 'new Array(n)', params: 1, description: 'Create array with size' },
+    // 49
+    { name: 'BITWISE_XOR_VAR', operation: '^', params: 2, description: 'Bitwise XOR (both vars)' },
+    // 50
+    { name: 'UNARY_PLUS', operation: '+', params: 1, description: 'Unary plus (convert to number)' },
+    // 51
+    { name: 'ADD_VAR', operation: '+', params: 2, description: 'Addition (both vars)' },
+    // 52
+    { name: 'MODULO_VAR_CONST', operation: '%', params: 2, description: 'Modulo (var % const)' },
+    // 53
+    { name: 'BITWISE_OR_CONST_VAR2', operation: '|', params: 2, description: 'Bitwise OR variant (const | var)' },
+    // 54
+    { name: 'NEW_WITH_ARGS', operation: 'new Constructor(...args)', params: 2, description: 'new operator with arguments' },
+    // 55
+    { name: 'BITWISE_AND_VAR_CONST', operation: '&', params: 2, description: 'Bitwise AND (var & const)' },
+    // 56
+    { name: 'BITWISE_NOT', operation: '~', params: 1, description: 'Bitwise NOT' },
+    // 57
+    { name: 'NOT_EQUAL_CONST_VAR', operation: '!=', params: 2, description: 'Not equal (const != var)' },
+    // 58
+    { name: 'GREATER_THAN_VAR', operation: '>', params: 2, description: 'Greater than (both vars)' },
+    // 59
+    { name: 'GET_EXCEPTION', operation: 'exception', params: 0, description: 'Get caught exception' },
+    // 60
+    { name: 'GREATER_EQUAL_VAR', operation: '>=', params: 2, description: 'Greater or equal (both vars)' },
+    // 61
+    { name: 'CALL_METHOD', operation: 'obj.method(...args)', params: 3, description: 'Call object method with args' },
+    // 62
+    { name: 'ADD_CONST_VAR', operation: '+', params: 2, description: 'Addition (const + var)' },
+    // 63
+    { name: 'NEW_REGEX', operation: 'new RegExp(pattern, flags)', params: 2, description: 'Create regular expression' },
+    // 64
+    { name: 'SUBTRACT_CONST', operation: '-', params: 2, description: 'Subtraction (const - const)' },
+    // 65
+    { name: 'GET_GLOBAL_VAR', operation: 'window[name]', params: 1, description: 'Get global variable' },
+    // 66
+    { name: 'EQUAL_CONST_VAR', operation: '==', params: 2, description: 'Equality (const == var)' },
+    // 67
+    { name: 'THROW_VAR', operation: 'throw', params: 1, description: 'Throw exception (variable)' },
+    // 68
+    { name: 'RETHROW_OR_CATCH', operation: 'rethrow/catch', params: 0, description: 'Rethrow or setup catch' },
+    // 69
+    { name: 'CLEAR_EXCEPTION', operation: 'clear exception', params: 0, description: 'Clear exception flag' },
+    // 70
+    { name: 'NOT_STRICT_EQUAL_VAR', operation: '!==', params: 2, description: 'Not strict equal (both vars)' },
+    // 71
+    { name: 'NEW_ARRAY', operation: '[]', params: 0, description: 'Create empty array' },
+    // 72
+    { name: 'GET_OUTER_VAR', operation: 'outer[name]', params: 1, description: 'Get variable from outer scope' },
+    // 73
+    { name: 'THROW_UNDEFINED', operation: 'throw undefined', params: 0, description: 'Throw undefined' },
+    // 74
+    { name: 'SET_CATCH_TARGET', operation: 'catch target', params: 1, description: 'Set catch block target' },
+    // 75
+    { name: 'GET_GLOBAL_OBJECT', operation: 'window', params: 0, description: 'Get global object (window)' },
+    // 76
+    { name: 'NOT_STRICT_EQUAL_CONST_VAR', operation: '!==', params: 2, description: 'Not strict equal (const !== var)' },
+    // 77
+    { name: 'CALL_FUNC_3ARGS', operation: 'func(a,b,c)', params: 4, description: 'Call function with 3 arguments' },
+    // 78
+    { name: 'UNSIGNED_RIGHT_SHIFT_VAR_CONST', operation: '>>>', params: 2, description: 'Unsigned right shift (var >>> const)' },
+    // 79
+    { name: 'BITWISE_XOR_CONST_VAR', operation: '^', params: 2, description: 'Bitwise XOR (const ^ var)' },
+    // 80
+    { name: 'THROW_CONST', operation: 'throw', params: 1, description: 'Throw exception (constant)' },
+    // 81
+    { name: 'JUMP_IF_TRUE', operation: 'if (x) goto', params: 1, description: 'Conditional jump if true' },
+    // 82
+    { name: 'LOAD_CONST', operation: 'load', params: 1, description: 'Load constant value' },
+    // 83
+    { name: 'GREATER_THAN_VAR_CONST', operation: '>', params: 2, description: 'Greater than (var > const)' },
+    // 84
+    { name: 'EQUAL_CONST', operation: '==', params: 2, description: 'Equality (const == const)' },
+    // 85
+    { name: 'CREATE_FUNCTION', operation: 'function', params: 3, description: 'Create function object' }
+];
+
+console.log('=== OPCODE MAPPING TABLE ===\n');
+console.log('Total opcodes: 86\n');
+
+// Create detailed mapping
+const mapping = {};
+OPCODES.forEach((op, index) => {
+    mapping[index] = op;
+    console.log(`[${index.toString().padStart(2, ' ')}] ${op.name.padEnd(35, ' ')} | ${op.operation.padEnd(15, ' ')} | ${op.description}`);
+});
+
+// Save mapping
+fs.writeFileSync('opcode-mapping.json', JSON.stringify({ opcodes: mapping }, null, 2));
+
+console.log('\n\nOpcode mapping saved to opcode-mapping.json');

@@ -1,0 +1,4116 @@
+{
+  "totalBytecode": 98340,
+  "instructionsDisassembled": 500,
+  "instructions": [
+    {
+      "address": 0,
+      "opcode": 32,
+      "name": "RETURN",
+      "operation": "return",
+      "operands": []
+    },
+    {
+      "address": 1,
+      "opcode": 85,
+      "name": "CREATE_FUNCTION",
+      "operation": "function",
+      "operands": []
+    },
+    {
+      "address": 2,
+      "opcode": 21,
+      "name": "RIGHT_SHIFT_VAR_CONST",
+      "operation": ">>",
+      "operands": []
+    },
+    {
+      "address": 3,
+      "opcode": 2,
+      "name": "MULTIPLY_VAR",
+      "operation": "v0 * v268",
+      "operands": [
+        "v0",
+        "v268"
+      ]
+    },
+    {
+      "address": 6,
+      "opcode": 1,
+      "name": "INSTANCEOF",
+      "operation": "instanceof",
+      "operands": []
+    },
+    {
+      "address": 8,
+      "opcode": 38,
+      "name": "JUMP",
+      "operation": "goto 89697",
+      "operands": [
+        89697
+      ]
+    },
+    {
+      "address": 10,
+      "opcode": 12,
+      "name": "SET_VAR_UNDEFINED",
+      "operation": "var = undefined",
+      "operands": []
+    },
+    {
+      "address": 11,
+      "opcode": 7,
+      "name": "LEFT_SHIFT_VAR",
+      "operation": "<<",
+      "operands": []
+    },
+    {
+      "address": 12,
+      "opcode": 12,
+      "name": "SET_VAR_UNDEFINED",
+      "operation": "var = undefined",
+      "operands": []
+    },
+    {
+      "address": 13,
+      "opcode": 9,
+      "name": "TYPEOF",
+      "operation": "typeof v0",
+      "operands": [
+        "v0"
+      ]
+    },
+    {
+      "address": 15,
+      "opcode": 11,
+      "name": "BITWISE_AND_CONST_VAR",
+      "operation": "&",
+      "operands": []
+    },
+    {
+      "address": 16,
+      "opcode": 85,
+      "name": "CREATE_FUNCTION",
+      "operation": "function",
+      "operands": []
+    },
+    {
+      "address": 17,
+      "opcode": 57,
+      "name": "NOT_EQUAL_CONST_VAR",
+      "operation": "!=",
+      "operands": []
+    },
+    {
+      "address": 18,
+      "opcode": 2,
+      "name": "MULTIPLY_VAR",
+      "operation": "v0 * v268",
+      "operands": [
+        "v0",
+        "v268"
+      ]
+    },
+    {
+      "address": 21,
+      "opcode": 3,
+      "name": "EQUAL",
+      "operation": "v4 == 9",
+      "operands": [
+        "v4",
+        9
+      ]
+    },
+    {
+      "address": 24,
+      "opcode": 11,
+      "name": "BITWISE_AND_CONST_VAR",
+      "operation": "&",
+      "operands": []
+    },
+    {
+      "address": 26,
+      "opcode": 38,
+      "name": "JUMP",
+      "operation": "goto 202",
+      "operands": [
+        202
+      ]
+    },
+    {
+      "address": 28,
+      "opcode": 44,
+      "name": "SET_LOCAL_VAR",
+      "operation": "local[name] = value",
+      "operands": []
+    },
+    {
+      "address": 29,
+      "opcode": 15,
+      "name": "ADD_VAR_CONST",
+      "operation": "+",
+      "operands": []
+    },
+    {
+      "address": 31,
+      "opcode": 12,
+      "name": "SET_VAR_UNDEFINED",
+      "operation": "var = undefined",
+      "operands": []
+    },
+    {
+      "address": 32,
+      "opcode": 17,
+      "name": "MODULO_VAR",
+      "operation": "%",
+      "operands": []
+    },
+    {
+      "address": 33,
+      "opcode": 12,
+      "name": "SET_VAR_UNDEFINED",
+      "operation": "var = undefined",
+      "operands": []
+    },
+    {
+      "address": 34,
+      "opcode": 19,
+      "name": "SET_OUTER_VAR",
+      "operation": "outer[name] = value",
+      "operands": []
+    },
+    {
+      "address": 35,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 36,
+      "opcode": 9,
+      "name": "TYPEOF",
+      "operation": "typeof v5",
+      "operands": [
+        "v5"
+      ]
+    },
+    {
+      "address": 38,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 39,
+      "opcode": 15,
+      "name": "ADD_VAR_CONST",
+      "operation": "+",
+      "operands": []
+    },
+    {
+      "address": 41,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v5 obj[key] v7",
+      "operands": [
+        "v5",
+        "v7"
+      ]
+    },
+    {
+      "address": 45,
+      "opcode": 19,
+      "name": "SET_OUTER_VAR",
+      "operation": "outer[name] = value",
+      "operands": []
+    },
+    {
+      "address": 46,
+      "opcode": 17,
+      "name": "MODULO_VAR",
+      "operation": "%",
+      "operands": []
+    },
+    {
+      "address": 48,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v1",
+      "operands": [
+        "v1"
+      ]
+    },
+    {
+      "address": 51,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 52,
+      "opcode": 17,
+      "name": "MODULO_VAR",
+      "operation": "%",
+      "operands": []
+    },
+    {
+      "address": 54,
+      "opcode": 70,
+      "name": "NOT_STRICT_EQUAL_VAR",
+      "operation": "!==",
+      "operands": []
+    },
+    {
+      "address": 58,
+      "opcode": 5,
+      "name": "TERNARY_OR_JUMP",
+      "operation": "x ? x : jump",
+      "operands": []
+    },
+    {
+      "address": 61,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 62,
+      "opcode": 17,
+      "name": "MODULO_VAR",
+      "operation": "%",
+      "operands": []
+    },
+    {
+      "address": 64,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v5 obj[key] \"ῶPH1\"",
+      "operands": [
+        "v5",
+        "\"ῶPH1\""
+      ]
+    },
+    {
+      "address": 75,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 76,
+      "opcode": 15,
+      "name": "ADD_VAR_CONST",
+      "operation": "+",
+      "operands": []
+    },
+    {
+      "address": 78,
+      "opcode": 10,
+      "name": "NEW_OBJECT",
+      "operation": "{}",
+      "operands": []
+    },
+    {
+      "address": 80,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 81,
+      "opcode": 15,
+      "name": "ADD_VAR_CONST",
+      "operation": "+",
+      "operands": []
+    },
+    {
+      "address": 83,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "<decode error>",
+      "operands": []
+    },
+    {
+      "address": 92,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v7[\"؆À\u001aÀ#à\"] = \"ῶÀ# à\u000b\"",
+      "operands": [
+        "v7",
+        "\"؆À\u001aÀ#à\"",
+        "\"ῶÀ# à\u000b\""
+      ]
+    },
+    {
+      "address": 111,
+      "opcode": 19,
+      "name": "SET_OUTER_VAR",
+      "operation": "outer[name] = value",
+      "operands": []
+    },
+    {
+      "address": 113,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 114,
+      "opcode": 7,
+      "name": "LEFT_SHIFT_VAR",
+      "operation": "<<",
+      "operands": []
+    },
+    {
+      "address": 116,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 117,
+      "opcode": 15,
+      "name": "ADD_VAR_CONST",
+      "operation": "+",
+      "operands": []
+    },
+    {
+      "address": 119,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v4 obj[key] v7",
+      "operands": [
+        "v4",
+        "v7"
+      ]
+    },
+    {
+      "address": 123,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v6 obj[key] \"ǎ01\"",
+      "operands": [
+        "v6",
+        "\"ǎ01\""
+      ]
+    },
+    {
+      "address": 132,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 133,
+      "opcode": 19,
+      "name": "SET_OUTER_VAR",
+      "operation": "outer[name] = value",
+      "operands": []
+    },
+    {
+      "address": 135,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v8 obj[key] \"ῶŀ#à)ŀH\"",
+      "operands": [
+        "v8",
+        "\"ῶŀ#à)ŀH\""
+      ]
+    },
+    {
+      "address": 146,
+      "opcode": 19,
+      "name": "SET_OUTER_VAR",
+      "operation": "outer[name] = value",
+      "operands": []
+    },
+    {
+      "address": 148,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v7[1] = v8",
+      "operands": [
+        "v7",
+        1,
+        "v8"
+      ]
+    },
+    {
+      "address": 152,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 153,
+      "opcode": 19,
+      "name": "SET_OUTER_VAR",
+      "operation": "outer[name] = value",
+      "operands": []
+    },
+    {
+      "address": 155,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v8 obj[key] \"ῶĠ#à\rĠH\"",
+      "operands": [
+        "v8",
+        "\"ῶĠ#à\rĠH\""
+      ]
+    },
+    {
+      "address": 166,
+      "opcode": 11,
+      "name": "BITWISE_AND_CONST_VAR",
+      "operation": "&",
+      "operands": []
+    },
+    {
+      "address": 168,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v7[3] = v8",
+      "operands": [
+        "v7",
+        3,
+        "v8"
+      ]
+    },
+    {
+      "address": 172,
+      "opcode": 61,
+      "name": "CALL_METHOD",
+      "operation": "obj.method(...args)",
+      "operands": []
+    },
+    {
+      "address": 176,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v2",
+      "operands": [
+        "v2"
+      ]
+    },
+    {
+      "address": 179,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 180,
+      "opcode": 19,
+      "name": "SET_OUTER_VAR",
+      "operation": "outer[name] = value",
+      "operands": []
+    },
+    {
+      "address": 182,
+      "opcode": 46,
+      "name": "LOGICAL_NOT",
+      "operation": "! 0",
+      "operands": [
+        0
+      ]
+    },
+    {
+      "address": 185,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v4[\"؆ H\u000b(\"] = v4",
+      "operands": [
+        "v4",
+        "\"؆ H\u000b(\"",
+        "v4"
+      ]
+    },
+    {
+      "address": 196,
+      "opcode": 2,
+      "name": "MULTIPLY_VAR",
+      "operation": "3 * v254",
+      "operands": [
+        3,
+        "v254"
+      ]
+    },
+    {
+      "address": 200,
+      "opcode": 80,
+      "name": "THROW_CONST",
+      "operation": "throw",
+      "operands": []
+    },
+    {
+      "address": 202,
+      "opcode": 10,
+      "name": "NEW_OBJECT",
+      "operation": "{}",
+      "operands": []
+    },
+    {
+      "address": 204,
+      "opcode": 85,
+      "name": "CREATE_FUNCTION",
+      "operation": "function",
+      "operands": []
+    },
+    {
+      "address": 206,
+      "opcode": 2,
+      "name": "MULTIPLY_VAR",
+      "operation": "v0 * v268",
+      "operands": [
+        "v0",
+        "v268"
+      ]
+    },
+    {
+      "address": 209,
+      "opcode": 7,
+      "name": "LEFT_SHIFT_VAR",
+      "operation": "<<",
+      "operands": []
+    },
+    {
+      "address": 211,
+      "opcode": 38,
+      "name": "JUMP",
+      "operation": "goto 4250",
+      "operands": [
+        4250
+      ]
+    },
+    {
+      "address": 213,
+      "opcode": 24,
+      "name": "SET_VAR_TO_THIS",
+      "operation": "var = this",
+      "operands": []
+    },
+    {
+      "address": 214,
+      "opcode": 25,
+      "name": "RIGHT_SHIFT_VAR",
+      "operation": ">>",
+      "operands": []
+    },
+    {
+      "address": 215,
+      "opcode": 44,
+      "name": "SET_LOCAL_VAR",
+      "operation": "local[name] = value",
+      "operands": []
+    },
+    {
+      "address": 216,
+      "opcode": 27,
+      "name": "SET_FINALLY_TARGET",
+      "operation": "finally target",
+      "operands": []
+    },
+    {
+      "address": 218,
+      "opcode": 44,
+      "name": "SET_LOCAL_VAR",
+      "operation": "local[name] = value",
+      "operands": []
+    },
+    {
+      "address": 219,
+      "opcode": 29,
+      "name": "KEYS_OF_OBJECT",
+      "operation": "Object.keys",
+      "operands": []
+    },
+    {
+      "address": 221,
+      "opcode": 44,
+      "name": "SET_LOCAL_VAR",
+      "operation": "local[name] = value",
+      "operands": []
+    },
+    {
+      "address": 222,
+      "opcode": 31,
+      "name": "BITWISE_OR_CONST",
+      "operation": "|",
+      "operands": []
+    },
+    {
+      "address": 224,
+      "opcode": 12,
+      "name": "SET_VAR_UNDEFINED",
+      "operation": "var = undefined",
+      "operands": []
+    },
+    {
+      "address": 225,
+      "opcode": 33,
+      "name": "LESS_THAN_CONST",
+      "operation": "<",
+      "operands": []
+    },
+    {
+      "address": 226,
+      "opcode": 12,
+      "name": "SET_VAR_UNDEFINED",
+      "operation": "var = undefined",
+      "operands": []
+    },
+    {
+      "address": 227,
+      "opcode": 35,
+      "name": "DIVIDE_VAR_CONST",
+      "operation": "/",
+      "operands": []
+    },
+    {
+      "address": 228,
+      "opcode": 12,
+      "name": "SET_VAR_UNDEFINED",
+      "operation": "var = undefined",
+      "operands": []
+    },
+    {
+      "address": 229,
+      "opcode": 37,
+      "name": "BITWISE_OR_CONST_VAR",
+      "operation": "|",
+      "operands": []
+    },
+    {
+      "address": 230,
+      "opcode": 12,
+      "name": "SET_VAR_UNDEFINED",
+      "operation": "var = undefined",
+      "operands": []
+    },
+    {
+      "address": 231,
+      "opcode": 39,
+      "name": "GREATER_EQUAL_VAR_CONST",
+      "operation": ">=",
+      "operands": []
+    },
+    {
+      "address": 232,
+      "opcode": 12,
+      "name": "SET_VAR_UNDEFINED",
+      "operation": "var = undefined",
+      "operands": []
+    },
+    {
+      "address": 233,
+      "opcode": 41,
+      "name": "CALL_FUNC_0ARGS",
+      "operation": "v0()",
+      "operands": [
+        "v0"
+      ]
+    },
+    {
+      "address": 235,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v0[22] = v0",
+      "operands": [
+        "v0",
+        22,
+        "v0"
+      ]
+    },
+    {
+      "address": 239,
+      "opcode": 47,
+      "name": "STRICT_EQUAL_CONST_VAR",
+      "operation": "===",
+      "operands": []
+    },
+    {
+      "address": 240,
+      "opcode": 12,
+      "name": "SET_VAR_UNDEFINED",
+      "operation": "var = undefined",
+      "operands": []
+    },
+    {
+      "address": 241,
+      "opcode": 49,
+      "name": "BITWISE_XOR_VAR",
+      "operation": "v0 ^ 25",
+      "operands": [
+        "v0",
+        25
+      ]
+    },
+    {
+      "address": 244,
+      "opcode": 12,
+      "name": "SET_VAR_UNDEFINED",
+      "operation": "var = undefined",
+      "operands": []
+    },
+    {
+      "address": 245,
+      "opcode": 53,
+      "name": "BITWISE_OR_CONST_VAR2",
+      "operation": "|",
+      "operands": []
+    },
+    {
+      "address": 246,
+      "opcode": 12,
+      "name": "SET_VAR_UNDEFINED",
+      "operation": "var = undefined",
+      "operands": []
+    },
+    {
+      "address": 247,
+      "opcode": 55,
+      "name": "BITWISE_AND_VAR_CONST",
+      "operation": "&",
+      "operands": []
+    },
+    {
+      "address": 248,
+      "opcode": 65,
+      "name": "GET_GLOBAL_VAR",
+      "operation": "window[name]",
+      "operands": []
+    },
+    {
+      "address": 249,
+      "opcode": 2,
+      "name": "MULTIPLY_VAR",
+      "operation": "v0 * 3385",
+      "operands": [
+        "v0",
+        3385
+      ]
+    },
+    {
+      "address": 253,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v5 obj[key] \"ᣆÀ0\u001fĀH%ƀ#Ā)ƀ#Ā\"",
+      "operands": [
+        "v5",
+        "\"ᣆÀ0\u001fĀH%ƀ#Ā)ƀ#Ā\""
+      ]
+    },
+    {
+      "address": 271,
+      "opcode": 3,
+      "name": "EQUAL",
+      "operation": "\"є\u001aà\u001e)Ġ#à\u0012\r\" == 1127",
+      "operands": [
+        "\"є\u001aà\u001e)Ġ#à\u0012\r\"",
+        1127
+      ]
+    },
+    {
+      "address": 286,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v8[2] = v7",
+      "operands": [
+        "v8",
+        2,
+        "v7"
+      ]
+    },
+    {
+      "address": 290,
+      "opcode": 61,
+      "name": "CALL_METHOD",
+      "operation": "obj.method(...args)",
+      "operands": []
+    },
+    {
+      "address": 294,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v2",
+      "operands": [
+        "v2"
+      ]
+    },
+    {
+      "address": 297,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 298,
+      "opcode": 29,
+      "name": "KEYS_OF_OBJECT",
+      "operation": "Object.keys",
+      "operands": []
+    },
+    {
+      "address": 300,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v1",
+      "operands": [
+        "v1"
+      ]
+    },
+    {
+      "address": 303,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v4[\"ᝁÀH\"] = 15",
+      "operands": [
+        "v4",
+        "\"ᝁÀH\"",
+        15
+      ]
+    },
+    {
+      "address": 312,
+      "opcode": 13,
+      "name": "CALL_FUNC_1ARG",
+      "operation": "v4(1635)",
+      "operands": [
+        "v4",
+        1635
+      ]
+    },
+    {
+      "address": 316,
+      "opcode": 19,
+      "name": "SET_OUTER_VAR",
+      "operation": "outer[name] = value",
+      "operands": []
+    },
+    {
+      "address": 317,
+      "opcode": 33,
+      "name": "LESS_THAN_CONST",
+      "operation": "<",
+      "operands": []
+    },
+    {
+      "address": 319,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 320,
+      "opcode": 31,
+      "name": "BITWISE_OR_CONST",
+      "operation": "|",
+      "operands": []
+    },
+    {
+      "address": 322,
+      "opcode": 13,
+      "name": "CALL_FUNC_1ARG",
+      "operation": "v4(5311)",
+      "operands": [
+        "v4",
+        5311
+      ]
+    },
+    {
+      "address": 326,
+      "opcode": 19,
+      "name": "SET_OUTER_VAR",
+      "operation": "outer[name] = value",
+      "operands": []
+    },
+    {
+      "address": 327,
+      "opcode": 35,
+      "name": "DIVIDE_VAR_CONST",
+      "operation": "/",
+      "operands": []
+    },
+    {
+      "address": 329,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 330,
+      "opcode": 31,
+      "name": "BITWISE_OR_CONST",
+      "operation": "|",
+      "operands": []
+    },
+    {
+      "address": 332,
+      "opcode": 13,
+      "name": "CALL_FUNC_1ARG",
+      "operation": "v6(4773)",
+      "operands": [
+        "v6",
+        4773
+      ]
+    },
+    {
+      "address": 336,
+      "opcode": 19,
+      "name": "SET_OUTER_VAR",
+      "operation": "outer[name] = value",
+      "operands": []
+    },
+    {
+      "address": 337,
+      "opcode": 37,
+      "name": "BITWISE_OR_CONST_VAR",
+      "operation": "|",
+      "operands": []
+    },
+    {
+      "address": 339,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 340,
+      "opcode": 31,
+      "name": "BITWISE_OR_CONST",
+      "operation": "|",
+      "operands": []
+    },
+    {
+      "address": 342,
+      "opcode": 13,
+      "name": "CALL_FUNC_1ARG",
+      "operation": "v6(1254)",
+      "operands": [
+        "v6",
+        1254
+      ]
+    },
+    {
+      "address": 346,
+      "opcode": 19,
+      "name": "SET_OUTER_VAR",
+      "operation": "outer[name] = value",
+      "operands": []
+    },
+    {
+      "address": 347,
+      "opcode": 39,
+      "name": "GREATER_EQUAL_VAR_CONST",
+      "operation": ">=",
+      "operands": []
+    },
+    {
+      "address": 349,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 350,
+      "opcode": 31,
+      "name": "BITWISE_OR_CONST",
+      "operation": "|",
+      "operands": []
+    },
+    {
+      "address": 352,
+      "opcode": 13,
+      "name": "CALL_FUNC_1ARG",
+      "operation": "v10(2691)",
+      "operands": [
+        "v10",
+        2691
+      ]
+    },
+    {
+      "address": 356,
+      "opcode": 19,
+      "name": "SET_OUTER_VAR",
+      "operation": "outer[name] = value",
+      "operands": []
+    },
+    {
+      "address": 357,
+      "opcode": 41,
+      "name": "CALL_FUNC_0ARGS",
+      "operation": "v4()",
+      "operands": [
+        "v4"
+      ]
+    },
+    {
+      "address": 359,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 360,
+      "opcode": 33,
+      "name": "LESS_THAN_CONST",
+      "operation": "<",
+      "operands": []
+    },
+    {
+      "address": 362,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v6 obj[key] \"΢à0;ĀH7ŀ\u0015ŀҗĠ#Ā)\"",
+      "operands": [
+        "v6",
+        "\"΢à0;ĀH7ŀ\u0015ŀҗĠ#Ā)\""
+      ]
+    },
+    {
+      "address": 382,
+      "opcode": 61,
+      "name": "CALL_METHOD",
+      "operation": "obj.method(...args)",
+      "operands": []
+    },
+    {
+      "address": 386,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v2",
+      "operands": [
+        "v2"
+      ]
+    },
+    {
+      "address": 389,
+      "opcode": 19,
+      "name": "SET_OUTER_VAR",
+      "operation": "outer[name] = value",
+      "operands": []
+    },
+    {
+      "address": 390,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v4[v2] = 15",
+      "operands": [
+        "v4",
+        "v2",
+        15
+      ]
+    },
+    {
+      "address": 395,
+      "opcode": 13,
+      "name": "CALL_FUNC_1ARG",
+      "operation": "v7(6856)",
+      "operands": [
+        "v7",
+        6856
+      ]
+    },
+    {
+      "address": 399,
+      "opcode": 19,
+      "name": "SET_OUTER_VAR",
+      "operation": "outer[name] = value",
+      "operands": []
+    },
+    {
+      "address": 400,
+      "opcode": 45,
+      "name": "DIVIDE_VAR",
+      "operation": "v4 / v2",
+      "operands": [
+        "v4",
+        "v2"
+      ]
+    },
+    {
+      "address": 403,
+      "opcode": 31,
+      "name": "BITWISE_OR_CONST",
+      "operation": "|",
+      "operands": []
+    },
+    {
+      "address": 405,
+      "opcode": 13,
+      "name": "CALL_FUNC_1ARG",
+      "operation": "v7(5766)",
+      "operands": [
+        "v7",
+        5766
+      ]
+    },
+    {
+      "address": 409,
+      "opcode": 19,
+      "name": "SET_OUTER_VAR",
+      "operation": "outer[name] = value",
+      "operands": []
+    },
+    {
+      "address": 410,
+      "opcode": 47,
+      "name": "STRICT_EQUAL_CONST_VAR",
+      "operation": "===",
+      "operands": []
+    },
+    {
+      "address": 412,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 413,
+      "opcode": 31,
+      "name": "BITWISE_OR_CONST",
+      "operation": "|",
+      "operands": []
+    },
+    {
+      "address": 415,
+      "opcode": 13,
+      "name": "CALL_FUNC_1ARG",
+      "operation": "v8(9894)",
+      "operands": [
+        "v8",
+        9894
+      ]
+    },
+    {
+      "address": 419,
+      "opcode": 19,
+      "name": "SET_OUTER_VAR",
+      "operation": "outer[name] = value",
+      "operands": []
+    },
+    {
+      "address": 420,
+      "opcode": 49,
+      "name": "BITWISE_XOR_VAR",
+      "operation": "v4 ^ v2",
+      "operands": [
+        "v4",
+        "v2"
+      ]
+    },
+    {
+      "address": 423,
+      "opcode": 31,
+      "name": "BITWISE_OR_CONST",
+      "operation": "|",
+      "operands": []
+    },
+    {
+      "address": 425,
+      "opcode": 13,
+      "name": "CALL_FUNC_1ARG",
+      "operation": "v8(2736)",
+      "operands": [
+        "v8",
+        2736
+      ]
+    },
+    {
+      "address": 429,
+      "opcode": 19,
+      "name": "SET_OUTER_VAR",
+      "operation": "outer[name] = value",
+      "operands": []
+    },
+    {
+      "address": 430,
+      "opcode": 51,
+      "name": "ADD_VAR",
+      "operation": "v4 + v2",
+      "operands": [
+        "v4",
+        "v2"
+      ]
+    },
+    {
+      "address": 433,
+      "opcode": 49,
+      "name": "BITWISE_XOR_VAR",
+      "operation": "v4 ^ v1",
+      "operands": [
+        "v4",
+        "v1"
+      ]
+    },
+    {
+      "address": 437,
+      "opcode": 2,
+      "name": "MULTIPLY_VAR",
+      "operation": "1 * 1718",
+      "operands": [
+        1,
+        1718
+      ]
+    },
+    {
+      "address": 441,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v7 obj[key] \"᫵\u000b=\"",
+      "operands": [
+        "v7",
+        "\"᫵\u000b=\""
+      ]
+    },
+    {
+      "address": 450,
+      "opcode": 85,
+      "name": "CREATE_FUNCTION",
+      "operation": "function",
+      "operands": []
+    },
+    {
+      "address": 452,
+      "opcode": 2,
+      "name": "MULTIPLY_VAR",
+      "operation": "v0 * v268",
+      "operands": [
+        "v0",
+        "v268"
+      ]
+    },
+    {
+      "address": 455,
+      "opcode": 1,
+      "name": "INSTANCEOF",
+      "operation": "instanceof",
+      "operands": []
+    },
+    {
+      "address": 457,
+      "opcode": 38,
+      "name": "JUMP",
+      "operation": "goto 4225",
+      "operands": [
+        4225
+      ]
+    },
+    {
+      "address": 459,
+      "opcode": 12,
+      "name": "SET_VAR_UNDEFINED",
+      "operation": "var = undefined",
+      "operands": []
+    },
+    {
+      "address": 460,
+      "opcode": 61,
+      "name": "CALL_METHOD",
+      "operation": "obj.method(...args)",
+      "operands": []
+    },
+    {
+      "address": 461,
+      "opcode": 85,
+      "name": "CREATE_FUNCTION",
+      "operation": "function",
+      "operands": []
+    },
+    {
+      "address": 463,
+      "opcode": 2,
+      "name": "MULTIPLY_VAR",
+      "operation": "v0 * v268",
+      "operands": [
+        "v0",
+        "v268"
+      ]
+    },
+    {
+      "address": 466,
+      "opcode": 3,
+      "name": "EQUAL",
+      "operation": "v6 == 9",
+      "operands": [
+        "v6",
+        9
+      ]
+    },
+    {
+      "address": 469,
+      "opcode": 61,
+      "name": "CALL_METHOD",
+      "operation": "obj.method(...args)",
+      "operands": []
+    },
+    {
+      "address": 471,
+      "opcode": 38,
+      "name": "JUMP",
+      "operation": "goto 617",
+      "operands": [
+        617
+      ]
+    },
+    {
+      "address": 473,
+      "opcode": 44,
+      "name": "SET_LOCAL_VAR",
+      "operation": "local[name] = value",
+      "operands": []
+    },
+    {
+      "address": 474,
+      "opcode": 65,
+      "name": "GET_GLOBAL_VAR",
+      "operation": "window[name]",
+      "operands": []
+    },
+    {
+      "address": 476,
+      "opcode": 75,
+      "name": "GET_GLOBAL_OBJECT",
+      "operation": "window",
+      "operands": []
+    },
+    {
+      "address": 478,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 479,
+      "opcode": 51,
+      "name": "ADD_VAR",
+      "operation": "v5 + v1",
+      "operands": [
+        "v5",
+        "v1"
+      ]
+    },
+    {
+      "address": 483,
+      "opcode": 2,
+      "name": "MULTIPLY_VAR",
+      "operation": "1 * v170",
+      "operands": [
+        1,
+        "v170"
+      ]
+    },
+    {
+      "address": 487,
+      "opcode": 48,
+      "name": "NEW_ARRAY_WITH_SIZE",
+      "operation": "new Array(n)",
+      "operands": []
+    },
+    {
+      "address": 488,
+      "opcode": 9,
+      "name": "TYPEOF",
+      "operation": "typeof v6",
+      "operands": [
+        "v6"
+      ]
+    },
+    {
+      "address": 490,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v6[0] = 30",
+      "operands": [
+        "v6",
+        0,
+        30
+      ]
+    },
+    {
+      "address": 494,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v6[1] = 500",
+      "operands": [
+        "v6",
+        1,
+        500
+      ]
+    },
+    {
+      "address": 498,
+      "opcode": 75,
+      "name": "GET_GLOBAL_OBJECT",
+      "operation": "window",
+      "operands": []
+    },
+    {
+      "address": 500,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v11 obj[key] \"ͱƠ(\"",
+      "operands": [
+        "v11",
+        "\"ͱƠ(\""
+      ]
+    },
+    {
+      "address": 508,
+      "opcode": 2,
+      "name": "MULTIPLY_VAR",
+      "operation": "v0 * 3360",
+      "operands": [
+        "v0",
+        3360
+      ]
+    },
+    {
+      "address": 512,
+      "opcode": 48,
+      "name": "NEW_ARRAY_WITH_SIZE",
+      "operation": "new Array(n)",
+      "operands": []
+    },
+    {
+      "address": 513,
+      "opcode": 3,
+      "name": "EQUAL",
+      "operation": "v9 == 37",
+      "operands": [
+        "v9",
+        37
+      ]
+    },
+    {
+      "address": 517,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v9[0] = v11",
+      "operands": [
+        "v9",
+        0,
+        "v11"
+      ]
+    },
+    {
+      "address": 521,
+      "opcode": 61,
+      "name": "CALL_METHOD",
+      "operation": "obj.method(...args)",
+      "operands": []
+    },
+    {
+      "address": 525,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v2",
+      "operands": [
+        "v2"
+      ]
+    },
+    {
+      "address": 528,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v6[2] = v5",
+      "operands": [
+        "v6",
+        2,
+        "v5"
+      ]
+    },
+    {
+      "address": 532,
+      "opcode": 75,
+      "name": "GET_GLOBAL_OBJECT",
+      "operation": "window",
+      "operands": []
+    },
+    {
+      "address": 534,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v11 obj[key] \"ỹǠ(\"",
+      "operands": [
+        "v11",
+        "\"ỹǠ(\""
+      ]
+    },
+    {
+      "address": 542,
+      "opcode": 2,
+      "name": "MULTIPLY_VAR",
+      "operation": "v0 * 3360",
+      "operands": [
+        "v0",
+        3360
+      ]
+    },
+    {
+      "address": 546,
+      "opcode": 48,
+      "name": "NEW_ARRAY_WITH_SIZE",
+      "operation": "new Array(n)",
+      "operands": []
+    },
+    {
+      "address": 547,
+      "opcode": 3,
+      "name": "EQUAL",
+      "operation": "v10 == 37",
+      "operands": [
+        "v10",
+        37
+      ]
+    },
+    {
+      "address": 551,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v10[0] = v12",
+      "operands": [
+        "v10",
+        0,
+        "v12"
+      ]
+    },
+    {
+      "address": 555,
+      "opcode": 61,
+      "name": "CALL_METHOD",
+      "operation": "obj.method(...args)",
+      "operands": []
+    },
+    {
+      "address": 559,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v2",
+      "operands": [
+        "v2"
+      ]
+    },
+    {
+      "address": 562,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v6[3] = v5",
+      "operands": [
+        "v6",
+        3,
+        "v5"
+      ]
+    },
+    {
+      "address": 566,
+      "opcode": 54,
+      "name": "NEW_WITH_ARGS",
+      "operation": "new Constructor(...args)",
+      "operands": []
+    },
+    {
+      "address": 570,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v4[\"޴àC\"] = v4",
+      "operands": [
+        "v4",
+        "\"޴àC\"",
+        "v4"
+      ]
+    },
+    {
+      "address": 578,
+      "opcode": 46,
+      "name": "LOGICAL_NOT",
+      "operation": "! 1",
+      "operands": [
+        1
+      ]
+    },
+    {
+      "address": 581,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v4[\"܌ C\"] = v4",
+      "operands": [
+        "v4",
+        "\"܌ C\"",
+        "v4"
+      ]
+    },
+    {
+      "address": 589,
+      "opcode": 71,
+      "name": "NEW_ARRAY",
+      "operation": "[]",
+      "operands": []
+    },
+    {
+      "address": 591,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v4[\"ᇏÀC\"] = v4",
+      "operands": [
+        "v4",
+        "\"ᇏÀC\"",
+        "v4"
+      ]
+    },
+    {
+      "address": 599,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 600,
+      "opcode": 65,
+      "name": "GET_GLOBAL_VAR",
+      "operation": "window[name]",
+      "operands": []
+    },
+    {
+      "address": 602,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v4[\"Ả C\"] = v4",
+      "operands": [
+        "v4",
+        "\"Ả C\"",
+        "v4"
+      ]
+    },
+    {
+      "address": 610,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v4[\"܋;q\"] = v2",
+      "operands": [
+        "v4",
+        "\"܋;q\"",
+        "v2"
+      ]
+    },
+    {
+      "address": 618,
+      "opcode": 61,
+      "name": "CALL_METHOD",
+      "operation": "obj.method(...args)",
+      "operands": []
+    },
+    {
+      "address": 620,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v4 obj[key] \"ᠭÀ]ӏ\u0012\u0000↶; \"",
+      "operands": [
+        "v4",
+        "\"ᠭÀ]ӏ\u0012\u0000↶; \""
+      ]
+    },
+    {
+      "address": 633,
+      "opcode": 38,
+      "name": "JUMP",
+      "operation": "goto 1000",
+      "operands": [
+        1000
+      ]
+    },
+    {
+      "address": 635,
+      "opcode": 44,
+      "name": "SET_LOCAL_VAR",
+      "operation": "local[name] = value",
+      "operands": []
+    },
+    {
+      "address": 636,
+      "opcode": 71,
+      "name": "NEW_ARRAY",
+      "operation": "[]",
+      "operands": []
+    },
+    {
+      "address": 638,
+      "opcode": 12,
+      "name": "SET_VAR_UNDEFINED",
+      "operation": "var = undefined",
+      "operands": []
+    },
+    {
+      "address": 639,
+      "opcode": 73,
+      "name": "THROW_UNDEFINED",
+      "operation": "throw undefined",
+      "operands": []
+    },
+    {
+      "address": 640,
+      "opcode": 12,
+      "name": "SET_VAR_UNDEFINED",
+      "operation": "var = undefined",
+      "operands": []
+    },
+    {
+      "address": 641,
+      "opcode": 75,
+      "name": "GET_GLOBAL_OBJECT",
+      "operation": "window",
+      "operands": []
+    },
+    {
+      "address": 642,
+      "opcode": 12,
+      "name": "SET_VAR_UNDEFINED",
+      "operation": "var = undefined",
+      "operands": []
+    },
+    {
+      "address": 643,
+      "opcode": 77,
+      "name": "CALL_FUNC_3ARGS",
+      "operation": "func(a,b,c)",
+      "operands": []
+    },
+    {
+      "address": 644,
+      "opcode": 12,
+      "name": "SET_VAR_UNDEFINED",
+      "operation": "var = undefined",
+      "operands": []
+    },
+    {
+      "address": 645,
+      "opcode": 79,
+      "name": "BITWISE_XOR_CONST_VAR",
+      "operation": "^",
+      "operands": []
+    },
+    {
+      "address": 646,
+      "opcode": 12,
+      "name": "SET_VAR_UNDEFINED",
+      "operation": "var = undefined",
+      "operands": []
+    },
+    {
+      "address": 647,
+      "opcode": 81,
+      "name": "JUMP_IF_TRUE",
+      "operation": "goto v2",
+      "operands": [
+        "v2"
+      ]
+    },
+    {
+      "address": 649,
+      "opcode": 41,
+      "name": "CALL_FUNC_0ARGS",
+      "operation": "v5()",
+      "operands": [
+        "v5"
+      ]
+    },
+    {
+      "address": 651,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v5 obj[key] \"ࡣà(\"",
+      "operands": [
+        "v5",
+        "\"ࡣà(\""
+      ]
+    },
+    {
+      "address": 659,
+      "opcode": 2,
+      "name": "MULTIPLY_VAR",
+      "operation": "1 * 2901",
+      "operands": [
+        1,
+        2901
+      ]
+    },
+    {
+      "address": 663,
+      "opcode": 71,
+      "name": "NEW_ARRAY",
+      "operation": "[]",
+      "operands": []
+    },
+    {
+      "address": 665,
+      "opcode": 61,
+      "name": "CALL_METHOD",
+      "operation": "obj.method(...args)",
+      "operands": []
+    },
+    {
+      "address": 669,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v2",
+      "operands": [
+        "v2"
+      ]
+    },
+    {
+      "address": 672,
+      "opcode": 19,
+      "name": "SET_OUTER_VAR",
+      "operation": "outer[name] = value",
+      "operands": []
+    },
+    {
+      "address": 673,
+      "opcode": 73,
+      "name": "THROW_UNDEFINED",
+      "operation": "throw undefined",
+      "operands": []
+    },
+    {
+      "address": 675,
+      "opcode": 47,
+      "name": "STRICT_EQUAL_CONST_VAR",
+      "operation": "===",
+      "operands": []
+    },
+    {
+      "address": 676,
+      "opcode": 36,
+      "name": "IN_VAR",
+      "operation": "in",
+      "operands": []
+    },
+    {
+      "address": 679,
+      "opcode": 81,
+      "name": "JUMP_IF_TRUE",
+      "operation": "goto v9",
+      "operands": [
+        "v9"
+      ]
+    },
+    {
+      "address": 682,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v1",
+      "operands": [
+        "v1"
+      ]
+    },
+    {
+      "address": 685,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 686,
+      "opcode": 73,
+      "name": "THROW_UNDEFINED",
+      "operation": "throw undefined",
+      "operands": []
+    },
+    {
+      "address": 688,
+      "opcode": 0,
+      "name": "STRICT_EQUAL",
+      "operation": "v4 === v5",
+      "operands": [
+        "v4",
+        "v5"
+      ]
+    },
+    {
+      "address": 692,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v6",
+      "operands": [
+        "v6"
+      ]
+    },
+    {
+      "address": 695,
+      "opcode": 5,
+      "name": "TERNARY_OR_JUMP",
+      "operation": "x ? x : jump",
+      "operands": []
+    },
+    {
+      "address": 698,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v1",
+      "operands": [
+        "v1"
+      ]
+    },
+    {
+      "address": 701,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v8",
+      "operands": [
+        "v8"
+      ]
+    },
+    {
+      "address": 704,
+      "opcode": 38,
+      "name": "JUMP",
+      "operation": "goto 718",
+      "operands": [
+        718
+      ]
+    },
+    {
+      "address": 706,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 707,
+      "opcode": 73,
+      "name": "THROW_UNDEFINED",
+      "operation": "throw undefined",
+      "operands": []
+    },
+    {
+      "address": 709,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v6 obj[key] \"\u0002 b\"",
+      "operands": [
+        "v6",
+        "\"\u0002 b\""
+      ]
+    },
+    {
+      "address": 718,
+      "opcode": 19,
+      "name": "SET_OUTER_VAR",
+      "operation": "outer[name] = value",
+      "operands": []
+    },
+    {
+      "address": 719,
+      "opcode": 75,
+      "name": "GET_GLOBAL_OBJECT",
+      "operation": "window",
+      "operands": []
+    },
+    {
+      "address": 721,
+      "opcode": 47,
+      "name": "STRICT_EQUAL_CONST_VAR",
+      "operation": "===",
+      "operands": []
+    },
+    {
+      "address": 722,
+      "opcode": 36,
+      "name": "IN_VAR",
+      "operation": "in",
+      "operands": []
+    },
+    {
+      "address": 725,
+      "opcode": 81,
+      "name": "JUMP_IF_TRUE",
+      "operation": "goto v6",
+      "operands": [
+        "v6"
+      ]
+    },
+    {
+      "address": 728,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v1",
+      "operands": [
+        "v1"
+      ]
+    },
+    {
+      "address": 731,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 732,
+      "opcode": 75,
+      "name": "GET_GLOBAL_OBJECT",
+      "operation": "window",
+      "operands": []
+    },
+    {
+      "address": 734,
+      "opcode": 0,
+      "name": "STRICT_EQUAL",
+      "operation": "v5 === v4",
+      "operands": [
+        "v5",
+        "v4"
+      ]
+    },
+    {
+      "address": 738,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v8",
+      "operands": [
+        "v8"
+      ]
+    },
+    {
+      "address": 741,
+      "opcode": 5,
+      "name": "TERNARY_OR_JUMP",
+      "operation": "x ? x : jump",
+      "operands": []
+    },
+    {
+      "address": 744,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v1",
+      "operands": [
+        "v1"
+      ]
+    },
+    {
+      "address": 747,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v5",
+      "operands": [
+        "v5"
+      ]
+    },
+    {
+      "address": 750,
+      "opcode": 38,
+      "name": "JUMP",
+      "operation": "goto 764",
+      "operands": [
+        764
+      ]
+    },
+    {
+      "address": 752,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 753,
+      "opcode": 75,
+      "name": "GET_GLOBAL_OBJECT",
+      "operation": "window",
+      "operands": []
+    },
+    {
+      "address": 755,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v5 obj[key] \"ӃÀbÀ\u000bU\"",
+      "operands": [
+        "v5",
+        "\"ӃÀbÀ\u000bU\""
+      ]
+    },
+    {
+      "address": 767,
+      "opcode": 47,
+      "name": "STRICT_EQUAL_CONST_VAR",
+      "operation": "===",
+      "operands": []
+    },
+    {
+      "address": 768,
+      "opcode": 36,
+      "name": "IN_VAR",
+      "operation": "in",
+      "operands": []
+    },
+    {
+      "address": 771,
+      "opcode": 81,
+      "name": "JUMP_IF_TRUE",
+      "operation": "goto v6",
+      "operands": [
+        "v6"
+      ]
+    },
+    {
+      "address": 774,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v1",
+      "operands": [
+        "v1"
+      ]
+    },
+    {
+      "address": 777,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 778,
+      "opcode": 77,
+      "name": "CALL_FUNC_3ARGS",
+      "operation": "func(a,b,c)",
+      "operands": []
+    },
+    {
+      "address": 780,
+      "opcode": 0,
+      "name": "STRICT_EQUAL",
+      "operation": "v5 === v4",
+      "operands": [
+        "v5",
+        "v4"
+      ]
+    },
+    {
+      "address": 784,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v9",
+      "operands": [
+        "v9"
+      ]
+    },
+    {
+      "address": 787,
+      "opcode": 5,
+      "name": "TERNARY_OR_JUMP",
+      "operation": "x ? x : jump",
+      "operands": []
+    },
+    {
+      "address": 790,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v1",
+      "operands": [
+        "v1"
+      ]
+    },
+    {
+      "address": 793,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v5",
+      "operands": [
+        "v5"
+      ]
+    },
+    {
+      "address": 796,
+      "opcode": 38,
+      "name": "JUMP",
+      "operation": "goto 810",
+      "operands": [
+        810
+      ]
+    },
+    {
+      "address": 798,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 799,
+      "opcode": 77,
+      "name": "CALL_FUNC_3ARGS",
+      "operation": "func(a,b,c)",
+      "operands": []
+    },
+    {
+      "address": 801,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v6 obj[key] \"᠞ĀbĀ\u000bg\"",
+      "operands": [
+        "v6",
+        "\"᠞ĀbĀ\u000bg\""
+      ]
+    },
+    {
+      "address": 813,
+      "opcode": 76,
+      "name": "NOT_STRICT_EQUAL_CONST_VAR",
+      "operation": "!==",
+      "operands": []
+    },
+    {
+      "address": 814,
+      "opcode": 36,
+      "name": "IN_VAR",
+      "operation": "in",
+      "operands": []
+    },
+    {
+      "address": 817,
+      "opcode": 5,
+      "name": "TERNARY_OR_JUMP",
+      "operation": "x ? x : jump",
+      "operands": []
+    },
+    {
+      "address": 820,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v1",
+      "operands": [
+        "v1"
+      ]
+    },
+    {
+      "address": 823,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 824,
+      "opcode": 79,
+      "name": "BITWISE_XOR_CONST_VAR",
+      "operation": "^",
+      "operands": []
+    },
+    {
+      "address": 826,
+      "opcode": 70,
+      "name": "NOT_STRICT_EQUAL_VAR",
+      "operation": "!==",
+      "operands": []
+    },
+    {
+      "address": 830,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v8",
+      "operands": [
+        "v8"
+      ]
+    },
+    {
+      "address": 833,
+      "opcode": 5,
+      "name": "TERNARY_OR_JUMP",
+      "operation": "x ? x : jump",
+      "operands": []
+    },
+    {
+      "address": 836,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 837,
+      "opcode": 79,
+      "name": "BITWISE_XOR_CONST_VAR",
+      "operation": "^",
+      "operands": []
+    },
+    {
+      "address": 839,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v10",
+      "operands": [
+        "v10"
+      ]
+    },
+    {
+      "address": 842,
+      "opcode": 38,
+      "name": "JUMP",
+      "operation": "goto 850",
+      "operands": [
+        850
+      ]
+    },
+    {
+      "address": 844,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 845,
+      "opcode": 53,
+      "name": "BITWISE_OR_CONST_VAR2",
+      "operation": "|",
+      "operands": []
+    },
+    {
+      "address": 847,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v10",
+      "operands": [
+        "v10"
+      ]
+    },
+    {
+      "address": 850,
+      "opcode": 19,
+      "name": "SET_OUTER_VAR",
+      "operation": "outer[name] = value",
+      "operands": []
+    },
+    {
+      "address": 851,
+      "opcode": 81,
+      "name": "JUMP_IF_TRUE",
+      "operation": "goto v4",
+      "operands": [
+        "v4"
+      ]
+    },
+    {
+      "address": 853,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 854,
+      "opcode": 71,
+      "name": "NEW_ARRAY",
+      "operation": "[]",
+      "operands": []
+    },
+    {
+      "address": 856,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v8 obj[key] \"᠞ÀHy \u000eÀ \"",
+      "operands": [
+        "v8",
+        "\"᠞ÀHy \u000eÀ \""
+      ]
+    },
+    {
+      "address": 869,
+      "opcode": 5,
+      "name": "TERNARY_OR_JUMP",
+      "operation": "x ? x : jump",
+      "operands": []
+    },
+    {
+      "address": 872,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load null",
+      "operands": [
+        "null"
+      ]
+    },
+    {
+      "address": 875,
+      "opcode": 38,
+      "name": "JUMP",
+      "operation": "goto 998",
+      "operands": [
+        998
+      ]
+    },
+    {
+      "address": 877,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 878,
+      "opcode": 33,
+      "name": "LESS_THAN_CONST",
+      "operation": "<",
+      "operands": []
+    },
+    {
+      "address": 880,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v6 obj[key] \"౟ŀ0\rĠH\tƀ\"",
+      "operands": [
+        "v6",
+        "\"౟ŀ0\rĠH\tƀ\""
+      ]
+    },
+    {
+      "address": 892,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v12 obj[key] \"౟Ā0\rƠ\u001aȠ#\"",
+      "operands": [
+        "v12",
+        "\"౟Ā0\rƠ\u001aȠ#\""
+      ]
+    },
+    {
+      "address": 905,
+      "opcode": 1,
+      "name": "INSTANCEOF",
+      "operation": "instanceof",
+      "operands": []
+    },
+    {
+      "address": 907,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 908,
+      "opcode": 71,
+      "name": "NEW_ARRAY",
+      "operation": "[]",
+      "operands": []
+    },
+    {
+      "address": 910,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v13[1] = v14",
+      "operands": [
+        "v13",
+        1,
+        "v14"
+      ]
+    },
+    {
+      "address": 914,
+      "opcode": 61,
+      "name": "CALL_METHOD",
+      "operation": "obj.method(...args)",
+      "operands": []
+    },
+    {
+      "address": 918,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v2",
+      "operands": [
+        "v2"
+      ]
+    },
+    {
+      "address": 921,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v9[0] = v11",
+      "operands": [
+        "v9",
+        0,
+        "v11"
+      ]
+    },
+    {
+      "address": 925,
+      "opcode": 10,
+      "name": "NEW_OBJECT",
+      "operation": "{}",
+      "operands": []
+    },
+    {
+      "address": 927,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 928,
+      "opcode": 49,
+      "name": "BITWISE_XOR_VAR",
+      "operation": "v11 ^ v1",
+      "operands": [
+        "v11",
+        "v1"
+      ]
+    },
+    {
+      "address": 932,
+      "opcode": 2,
+      "name": "MULTIPLY_VAR",
+      "operation": "1 * 856",
+      "operands": [
+        1,
+        856
+      ]
+    },
+    {
+      "address": 936,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 937,
+      "opcode": 71,
+      "name": "NEW_ARRAY",
+      "operation": "[]",
+      "operands": []
+    },
+    {
+      "address": 939,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v13 obj[key] \"᠞Ȁ(ǀȀŠ#Ā\"",
+      "operands": [
+        "v13",
+        "\"᠞Ȁ(ǀȀŠ#Ā\""
+      ]
+    },
+    {
+      "address": 951,
+      "opcode": 2,
+      "name": "MULTIPLY_VAR",
+      "operation": "v0 * v193",
+      "operands": [
+        "v0",
+        "v193"
+      ]
+    },
+    {
+      "address": 955,
+      "opcode": 75,
+      "name": "GET_GLOBAL_OBJECT",
+      "operation": "window",
+      "operands": []
+    },
+    {
+      "address": 957,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v13 obj[key] \"܋Šb\"",
+      "operands": [
+        "v13",
+        "\"܋Šb\""
+      ]
+    },
+    {
+      "address": 966,
+      "opcode": 16,
+      "name": "ADD_CONST",
+      "operation": "v11 + 1",
+      "operands": [
+        "v11",
+        1
+      ]
+    },
+    {
+      "address": 970,
+      "opcode": 75,
+      "name": "GET_GLOBAL_OBJECT",
+      "operation": "window",
+      "operands": []
+    },
+    {
+      "address": 972,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v14[\"܋Š#\"] = v8",
+      "operands": [
+        "v14",
+        "\"܋Š#\"",
+        "v8"
+      ]
+    },
+    {
+      "address": 980,
+      "opcode": 2,
+      "name": "MULTIPLY_VAR",
+      "operation": "v0 * v16",
+      "operands": [
+        "v0",
+        "v16"
+      ]
+    },
+    {
+      "address": 984,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v9[1] = v8",
+      "operands": [
+        "v9",
+        1,
+        "v8"
+      ]
+    },
+    {
+      "address": 988,
+      "opcode": 61,
+      "name": "CALL_METHOD",
+      "operation": "obj.method(...args)",
+      "operands": []
+    },
+    {
+      "address": 992,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v2",
+      "operands": [
+        "v2"
+      ]
+    },
+    {
+      "address": 995,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v4",
+      "operands": [
+        "v4"
+      ]
+    },
+    {
+      "address": 998,
+      "opcode": 80,
+      "name": "THROW_CONST",
+      "operation": "throw",
+      "operands": []
+    },
+    {
+      "address": 1000,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v6[\"ͱ H\"] = 30",
+      "operands": [
+        "v6",
+        "\"ͱ H\"",
+        30
+      ]
+    },
+    {
+      "address": 1009,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v5 obj[key] \"ᠭ]ࠩ\u0012\u0000↶;À\"",
+      "operands": [
+        "v5",
+        "\"ᠭ]ࠩ\u0012\u0000↶;À\""
+      ]
+    },
+    {
+      "address": 1022,
+      "opcode": 38,
+      "name": "JUMP",
+      "operation": "goto 1633",
+      "operands": [
+        1633
+      ]
+    },
+    {
+      "address": 1024,
+      "opcode": 44,
+      "name": "SET_LOCAL_VAR",
+      "operation": "local[name] = value",
+      "operands": []
+    },
+    {
+      "address": 1027,
+      "opcode": 12,
+      "name": "SET_VAR_UNDEFINED",
+      "operation": "var = undefined",
+      "operands": []
+    },
+    {
+      "address": 1029,
+      "opcode": 12,
+      "name": "SET_VAR_UNDEFINED",
+      "operation": "var = undefined",
+      "operands": []
+    },
+    {
+      "address": 1031,
+      "opcode": 12,
+      "name": "SET_VAR_UNDEFINED",
+      "operation": "var = undefined",
+      "operands": []
+    },
+    {
+      "address": 1033,
+      "opcode": 12,
+      "name": "SET_VAR_UNDEFINED",
+      "operation": "var = undefined",
+      "operands": []
+    },
+    {
+      "address": 1035,
+      "opcode": 12,
+      "name": "SET_VAR_UNDEFINED",
+      "operation": "var = undefined",
+      "operands": []
+    },
+    {
+      "address": 1037,
+      "opcode": 12,
+      "name": "SET_VAR_UNDEFINED",
+      "operation": "var = undefined",
+      "operands": []
+    },
+    {
+      "address": 1039,
+      "opcode": 12,
+      "name": "SET_VAR_UNDEFINED",
+      "operation": "var = undefined",
+      "operands": []
+    },
+    {
+      "address": 1041,
+      "opcode": 75,
+      "name": "GET_GLOBAL_OBJECT",
+      "operation": "window",
+      "operands": []
+    },
+    {
+      "address": 1043,
+      "opcode": 19,
+      "name": "SET_OUTER_VAR",
+      "operation": "outer[name] = value",
+      "operands": []
+    },
+    {
+      "address": 1046,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v1",
+      "operands": [
+        "v1"
+      ]
+    },
+    {
+      "address": 1049,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 1052,
+      "opcode": 0,
+      "name": "STRICT_EQUAL",
+      "operation": "v4 === v6",
+      "operands": [
+        "v4",
+        "v6"
+      ]
+    },
+    {
+      "address": 1056,
+      "opcode": 5,
+      "name": "TERNARY_OR_JUMP",
+      "operation": "x ? x : jump",
+      "operands": []
+    },
+    {
+      "address": 1059,
+      "opcode": 19,
+      "name": "SET_OUTER_VAR",
+      "operation": "outer[name] = value",
+      "operands": []
+    },
+    {
+      "address": 1061,
+      "opcode": 2,
+      "name": "MULTIPLY_VAR",
+      "operation": "v0 * v268",
+      "operands": [
+        "v0",
+        "v268"
+      ]
+    },
+    {
+      "address": 1064,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load \"\"",
+      "operands": [
+        "\"\""
+      ]
+    },
+    {
+      "address": 1069,
+      "opcode": 75,
+      "name": "GET_GLOBAL_OBJECT",
+      "operation": "window",
+      "operands": []
+    },
+    {
+      "address": 1071,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 1074,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v4[\"ກÀC\"] = v5",
+      "operands": [
+        "v4",
+        "\"ກÀC\"",
+        "v5"
+      ]
+    },
+    {
+      "address": 1082,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v5 obj[key] \"ᇏÀ(\"",
+      "operands": [
+        "v5",
+        "\"ᇏÀ(\""
+      ]
+    },
+    {
+      "address": 1090,
+      "opcode": 2,
+      "name": "MULTIPLY_VAR",
+      "operation": "1 * v102",
+      "operands": [
+        1,
+        "v102"
+      ]
+    },
+    {
+      "address": 1094,
+      "opcode": 48,
+      "name": "NEW_ARRAY_WITH_SIZE",
+      "operation": "new Array(n)",
+      "operands": []
+    },
+    {
+      "address": 1095,
+      "opcode": 3,
+      "name": "EQUAL",
+      "operation": "v8 == 42",
+      "operands": [
+        "v8",
+        42
+      ]
+    },
+    {
+      "address": 1099,
+      "opcode": 2,
+      "name": "MULTIPLY_VAR",
+      "operation": "v0 * v268",
+      "operands": [
+        "v0",
+        "v268"
+      ]
+    },
+    {
+      "address": 1102,
+      "opcode": 3,
+      "name": "EQUAL",
+      "operation": "v9 == false",
+      "operands": [
+        "v9",
+        "false"
+      ]
+    },
+    {
+      "address": 1106,
+      "opcode": 44,
+      "name": "SET_LOCAL_VAR",
+      "operation": "local[name] = value",
+      "operands": []
+    },
+    {
+      "address": 1109,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 1112,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v4 obj[key] \"ͱÀ0\"",
+      "operands": [
+        "v4",
+        "\"ͱÀ0\""
+      ]
+    },
+    {
+      "address": 1119,
+      "opcode": 3,
+      "name": "EQUAL",
+      "operation": "v8 == v2",
+      "operands": [
+        "v8",
+        "v2"
+      ]
+    },
+    {
+      "address": 1124,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v8[0] = v7",
+      "operands": [
+        "v8",
+        0,
+        "v7"
+      ]
+    },
+    {
+      "address": 1128,
+      "opcode": 61,
+      "name": "CALL_METHOD",
+      "operation": "obj.method(...args)",
+      "operands": []
+    },
+    {
+      "address": 1132,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v2",
+      "operands": [
+        "v2"
+      ]
+    },
+    {
+      "address": 1135,
+      "opcode": 80,
+      "name": "THROW_CONST",
+      "operation": "throw",
+      "operands": []
+    },
+    {
+      "address": 1137,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v8[0] = v9",
+      "operands": [
+        "v8",
+        0,
+        "v9"
+      ]
+    },
+    {
+      "address": 1141,
+      "opcode": 61,
+      "name": "CALL_METHOD",
+      "operation": "obj.method(...args)",
+      "operands": []
+    },
+    {
+      "address": 1145,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v2",
+      "operands": [
+        "v2"
+      ]
+    },
+    {
+      "address": 1148,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v7 obj[key] \"ඍĀ0;ƀ]\"",
+      "operands": [
+        "v7",
+        "\"ඍĀ0;ƀ]\""
+      ]
+    },
+    {
+      "address": 1159,
+      "opcode": 2,
+      "name": "MULTIPLY_VAR",
+      "operation": "v0 * v268",
+      "operands": [
+        "v0",
+        "v268"
+      ]
+    },
+    {
+      "address": 1162,
+      "opcode": 3,
+      "name": "EQUAL",
+      "operation": "v9 == false",
+      "operands": [
+        "v9",
+        "false"
+      ]
+    },
+    {
+      "address": 1166,
+      "opcode": 44,
+      "name": "SET_LOCAL_VAR",
+      "operation": "local[name] = value",
+      "operands": []
+    },
+    {
+      "address": 1169,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 1172,
+      "opcode": 76,
+      "name": "NOT_STRICT_EQUAL_CONST_VAR",
+      "operation": "!==",
+      "operands": []
+    },
+    {
+      "address": 1173,
+      "opcode": 36,
+      "name": "IN_VAR",
+      "operation": "in",
+      "operands": []
+    },
+    {
+      "address": 1176,
+      "opcode": 80,
+      "name": "THROW_CONST",
+      "operation": "throw",
+      "operands": []
+    },
+    {
+      "address": 1178,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v12[0] = v9",
+      "operands": [
+        "v12",
+        0,
+        "v9"
+      ]
+    },
+    {
+      "address": 1182,
+      "opcode": 61,
+      "name": "CALL_METHOD",
+      "operation": "obj.method(...args)",
+      "operands": []
+    },
+    {
+      "address": 1186,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v2",
+      "operands": [
+        "v2"
+      ]
+    },
+    {
+      "address": 1189,
+      "opcode": 19,
+      "name": "SET_OUTER_VAR",
+      "operation": "outer[name] = value",
+      "operands": []
+    },
+    {
+      "address": 1192,
+      "opcode": 75,
+      "name": "GET_GLOBAL_OBJECT",
+      "operation": "window",
+      "operands": []
+    },
+    {
+      "address": 1194,
+      "opcode": 46,
+      "name": "LOGICAL_NOT",
+      "operation": "! 0",
+      "operands": [
+        0
+      ]
+    },
+    {
+      "address": 1197,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v4[\"܌ĀH\"] = 20",
+      "operands": [
+        "v4",
+        "\"܌ĀH\"",
+        20
+      ]
+    },
+    {
+      "address": 1206,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v5 obj[key] \"ࡣĀ(\"",
+      "operands": [
+        "v5",
+        "\"ࡣĀ(\""
+      ]
+    },
+    {
+      "address": 1214,
+      "opcode": 2,
+      "name": "MULTIPLY_VAR",
+      "operation": "1 * 2901",
+      "operands": [
+        1,
+        2901
+      ]
+    },
+    {
+      "address": 1218,
+      "opcode": 71,
+      "name": "NEW_ARRAY",
+      "operation": "[]",
+      "operands": []
+    },
+    {
+      "address": 1220,
+      "opcode": 61,
+      "name": "CALL_METHOD",
+      "operation": "obj.method(...args)",
+      "operands": []
+    },
+    {
+      "address": 1224,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v2",
+      "operands": [
+        "v2"
+      ]
+    },
+    {
+      "address": 1227,
+      "opcode": 19,
+      "name": "SET_OUTER_VAR",
+      "operation": "outer[name] = value",
+      "operands": []
+    },
+    {
+      "address": 1230,
+      "opcode": 47,
+      "name": "STRICT_EQUAL_CONST_VAR",
+      "operation": "===",
+      "operands": []
+    },
+    {
+      "address": 1231,
+      "opcode": 36,
+      "name": "IN_VAR",
+      "operation": "in",
+      "operands": []
+    },
+    {
+      "address": 1234,
+      "opcode": 81,
+      "name": "JUMP_IF_TRUE",
+      "operation": "goto v5",
+      "operands": [
+        "v5"
+      ]
+    },
+    {
+      "address": 1237,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v1",
+      "operands": [
+        "v1"
+      ]
+    },
+    {
+      "address": 1240,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 1243,
+      "opcode": 0,
+      "name": "STRICT_EQUAL",
+      "operation": "v4 === v9",
+      "operands": [
+        "v4",
+        "v9"
+      ]
+    },
+    {
+      "address": 1247,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v11",
+      "operands": [
+        "v11"
+      ]
+    },
+    {
+      "address": 1250,
+      "opcode": 5,
+      "name": "TERNARY_OR_JUMP",
+      "operation": "x ? x : jump",
+      "operands": []
+    },
+    {
+      "address": 1253,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v1",
+      "operands": [
+        "v1"
+      ]
+    },
+    {
+      "address": 1256,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v4",
+      "operands": [
+        "v4"
+      ]
+    },
+    {
+      "address": 1259,
+      "opcode": 38,
+      "name": "JUMP",
+      "operation": "goto 1273",
+      "operands": [
+        1273
+      ]
+    },
+    {
+      "address": 1261,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 1264,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v4 obj[key] \"਼ b\"",
+      "operands": [
+        "v4",
+        "\"਼ b\""
+      ]
+    },
+    {
+      "address": 1273,
+      "opcode": 19,
+      "name": "SET_OUTER_VAR",
+      "operation": "outer[name] = value",
+      "operands": []
+    },
+    {
+      "address": 1276,
+      "opcode": 47,
+      "name": "STRICT_EQUAL_CONST_VAR",
+      "operation": "===",
+      "operands": []
+    },
+    {
+      "address": 1277,
+      "opcode": 36,
+      "name": "IN_VAR",
+      "operation": "in",
+      "operands": []
+    },
+    {
+      "address": 1280,
+      "opcode": 81,
+      "name": "JUMP_IF_TRUE",
+      "operation": "goto v5",
+      "operands": [
+        "v5"
+      ]
+    },
+    {
+      "address": 1283,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v1",
+      "operands": [
+        "v1"
+      ]
+    },
+    {
+      "address": 1286,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 1289,
+      "opcode": 0,
+      "name": "STRICT_EQUAL",
+      "operation": "v9 === v4",
+      "operands": [
+        "v9",
+        "v4"
+      ]
+    },
+    {
+      "address": 1293,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v10",
+      "operands": [
+        "v10"
+      ]
+    },
+    {
+      "address": 1296,
+      "opcode": 5,
+      "name": "TERNARY_OR_JUMP",
+      "operation": "x ? x : jump",
+      "operands": []
+    },
+    {
+      "address": 1299,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v1",
+      "operands": [
+        "v1"
+      ]
+    },
+    {
+      "address": 1302,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v5",
+      "operands": [
+        "v5"
+      ]
+    },
+    {
+      "address": 1305,
+      "opcode": 38,
+      "name": "JUMP",
+      "operation": "goto 1319",
+      "operands": [
+        1319
+      ]
+    },
+    {
+      "address": 1307,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 1310,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v5 obj[key] \"࿅ĠbĠ\rವH\u0011 ( \u0012\"",
+      "operands": [
+        "v5",
+        "\"࿅ĠbĠ\rವH\u0011 ( \u0012\""
+      ]
+    },
+    {
+      "address": 1328,
+      "opcode": 3,
+      "name": "EQUAL",
+      "operation": "1077 == v9",
+      "operands": [
+        1077,
+        "v9"
+      ]
+    },
+    {
+      "address": 1331,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v9 obj[key] \"ᚣŀ_\"",
+      "operands": [
+        "v9",
+        "\"ᚣŀ_\""
+      ]
+    },
+    {
+      "address": 1339,
+      "opcode": 61,
+      "name": "CALL_METHOD",
+      "operation": "obj.method(...args)",
+      "operands": []
+    },
+    {
+      "address": 1343,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v2",
+      "operands": [
+        "v2"
+      ]
+    },
+    {
+      "address": 1346,
+      "opcode": 19,
+      "name": "SET_OUTER_VAR",
+      "operation": "outer[name] = value",
+      "operands": []
+    },
+    {
+      "address": 1349,
+      "opcode": 47,
+      "name": "STRICT_EQUAL_CONST_VAR",
+      "operation": "===",
+      "operands": []
+    },
+    {
+      "address": 1350,
+      "opcode": 36,
+      "name": "IN_VAR",
+      "operation": "in",
+      "operands": []
+    },
+    {
+      "address": 1353,
+      "opcode": 81,
+      "name": "JUMP_IF_TRUE",
+      "operation": "goto v5",
+      "operands": [
+        "v5"
+      ]
+    },
+    {
+      "address": 1356,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v1",
+      "operands": [
+        "v1"
+      ]
+    },
+    {
+      "address": 1359,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 1362,
+      "opcode": 0,
+      "name": "STRICT_EQUAL",
+      "operation": "v4 === v10",
+      "operands": [
+        "v4",
+        "v10"
+      ]
+    },
+    {
+      "address": 1366,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v11",
+      "operands": [
+        "v11"
+      ]
+    },
+    {
+      "address": 1369,
+      "opcode": 5,
+      "name": "TERNARY_OR_JUMP",
+      "operation": "x ? x : jump",
+      "operands": []
+    },
+    {
+      "address": 1372,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v1",
+      "operands": [
+        "v1"
+      ]
+    },
+    {
+      "address": 1375,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v11",
+      "operands": [
+        "v11"
+      ]
+    },
+    {
+      "address": 1378,
+      "opcode": 38,
+      "name": "JUMP",
+      "operation": "goto 1392",
+      "operands": [
+        1392
+      ]
+    },
+    {
+      "address": 1380,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 1383,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v4 obj[key] \"਼ƀb\"",
+      "operands": [
+        "v4",
+        "\"਼ƀb\""
+      ]
+    },
+    {
+      "address": 1392,
+      "opcode": 19,
+      "name": "SET_OUTER_VAR",
+      "operation": "outer[name] = value",
+      "operands": []
+    },
+    {
+      "address": 1395,
+      "opcode": 47,
+      "name": "STRICT_EQUAL_CONST_VAR",
+      "operation": "===",
+      "operands": []
+    },
+    {
+      "address": 1396,
+      "opcode": 36,
+      "name": "IN_VAR",
+      "operation": "in",
+      "operands": []
+    },
+    {
+      "address": 1399,
+      "opcode": 81,
+      "name": "JUMP_IF_TRUE",
+      "operation": "goto v5",
+      "operands": [
+        "v5"
+      ]
+    },
+    {
+      "address": 1402,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v1",
+      "operands": [
+        "v1"
+      ]
+    },
+    {
+      "address": 1405,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 1408,
+      "opcode": 0,
+      "name": "STRICT_EQUAL",
+      "operation": "v4 === v11",
+      "operands": [
+        "v4",
+        "v11"
+      ]
+    },
+    {
+      "address": 1412,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v10",
+      "operands": [
+        "v10"
+      ]
+    },
+    {
+      "address": 1415,
+      "opcode": 5,
+      "name": "TERNARY_OR_JUMP",
+      "operation": "x ? x : jump",
+      "operands": []
+    },
+    {
+      "address": 1418,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v1",
+      "operands": [
+        "v1"
+      ]
+    },
+    {
+      "address": 1421,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v5",
+      "operands": [
+        "v5"
+      ]
+    },
+    {
+      "address": 1424,
+      "opcode": 38,
+      "name": "JUMP",
+      "operation": "goto 1438",
+      "operands": [
+        1438
+      ]
+    },
+    {
+      "address": 1426,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 1429,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v5 obj[key] \"ᅋŀbŀ\rఝ\u000bO)HOH} ( \u00126ࡰŀ\"",
+      "operands": [
+        "v5",
+        "\"ᅋŀbŀ\rఝ\u000bO)HOH} ( \u00126ࡰŀ\""
+      ]
+    },
+    {
+      "address": 1456,
+      "opcode": 30,
+      "name": "LESS_THAN_VAR",
+      "operation": "v4 < v10",
+      "operands": [
+        "v4",
+        "v10"
+      ]
+    },
+    {
+      "address": 1460,
+      "opcode": 5,
+      "name": "TERNARY_OR_JUMP",
+      "operation": "x ? x : jump",
+      "operands": []
+    },
+    {
+      "address": 1463,
+      "opcode": 75,
+      "name": "GET_GLOBAL_OBJECT",
+      "operation": "window",
+      "operands": []
+    },
+    {
+      "address": 1465,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v5 obj[key] \"ỹŀ0\"",
+      "operands": [
+        "v5",
+        "\"ỹŀ0\""
+      ]
+    },
+    {
+      "address": 1472,
+      "opcode": 5,
+      "name": "TERNARY_OR_JUMP",
+      "operation": "x ? x : jump",
+      "operands": []
+    },
+    {
+      "address": 1474,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 1477,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v14 obj[key] \"፞Ǡ0\rƠ\"",
+      "operands": [
+        "v14",
+        "\"፞Ǡ0\rƠ\""
+      ]
+    },
+    {
+      "address": 1486,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 1489,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v13[0] = v16",
+      "operands": [
+        "v13",
+        0,
+        "v16"
+      ]
+    },
+    {
+      "address": 1493,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 1496,
+      "opcode": 15,
+      "name": "ADD_VAR_CONST",
+      "operation": "+",
+      "operands": []
+    },
+    {
+      "address": 1498,
+      "opcode": 61,
+      "name": "CALL_METHOD",
+      "operation": "obj.method(...args)",
+      "operands": []
+    },
+    {
+      "address": 1500,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v13[1] = v17",
+      "operands": [
+        "v13",
+        1,
+        "v17"
+      ]
+    },
+    {
+      "address": 1504,
+      "opcode": 61,
+      "name": "CALL_METHOD",
+      "operation": "obj.method(...args)",
+      "operands": []
+    },
+    {
+      "address": 1508,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v2",
+      "operands": [
+        "v2"
+      ]
+    },
+    {
+      "address": 1511,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v11[0] = v12",
+      "operands": [
+        "v11",
+        0,
+        "v12"
+      ]
+    },
+    {
+      "address": 1515,
+      "opcode": 46,
+      "name": "LOGICAL_NOT",
+      "operation": "! 1",
+      "operands": [
+        1
+      ]
+    },
+    {
+      "address": 1518,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v11[1] = v15",
+      "operands": [
+        "v11",
+        1,
+        "v15"
+      ]
+    },
+    {
+      "address": 1522,
+      "opcode": 61,
+      "name": "CALL_METHOD",
+      "operation": "obj.method(...args)",
+      "operands": []
+    },
+    {
+      "address": 1526,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v2",
+      "operands": [
+        "v2"
+      ]
+    },
+    {
+      "address": 1529,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 1532,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load 30",
+      "operands": [
+        30
+      ]
+    },
+    {
+      "address": 1535,
+      "opcode": 16,
+      "name": "ADD_CONST",
+      "operation": "v4 + v10",
+      "operands": [
+        "v4",
+        "v10"
+      ]
+    },
+    {
+      "address": 1539,
+      "opcode": 19,
+      "name": "SET_OUTER_VAR",
+      "operation": "outer[name] = value",
+      "operands": []
+    },
+    {
+      "address": 1542,
+      "opcode": 38,
+      "name": "JUMP",
+      "operation": "goto 1444",
+      "operands": [
+        1444
+      ]
+    },
+    {
+      "address": 1544,
+      "opcode": 38,
+      "name": "JUMP",
+      "operation": "goto 1622",
+      "operands": [
+        1622
+      ]
+    },
+    {
+      "address": 1546,
+      "opcode": 19,
+      "name": "SET_OUTER_VAR",
+      "operation": "outer[name] = value",
+      "operands": []
+    },
+    {
+      "address": 1548,
+      "opcode": 1,
+      "name": "INSTANCEOF",
+      "operation": "instanceof",
+      "operands": []
+    },
+    {
+      "address": 1549,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 1552,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 1555,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v11 obj[key] \"ࡰŀ\u000eŀŠ\"",
+      "operands": [
+        "v11",
+        "\"ࡰŀ\u000eŀŠ\""
+      ]
+    },
+    {
+      "address": 1565,
+      "opcode": 5,
+      "name": "TERNARY_OR_JUMP",
+      "operation": "x ? x : jump",
+      "operands": []
+    },
+    {
+      "address": 1568,
+      "opcode": 75,
+      "name": "GET_GLOBAL_OBJECT",
+      "operation": "window",
+      "operands": []
+    },
+    {
+      "address": 1570,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v10 obj[key] \"ỹƀ0\"",
+      "operands": [
+        "v10",
+        "\"ỹƀ0\""
+      ]
+    },
+    {
+      "address": 1577,
+      "opcode": 5,
+      "name": "TERNARY_OR_JUMP",
+      "operation": "x ? x : jump",
+      "operands": []
+    },
+    {
+      "address": 1579,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 1582,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 1585,
+      "opcode": 40,
+      "name": "PROPERTY_GET",
+      "operation": "v16 obj[key] v17",
+      "operands": [
+        "v16",
+        "v17"
+      ]
+    },
+    {
+      "address": 1589,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v11[0] = v13",
+      "operands": [
+        "v11",
+        0,
+        "v13"
+      ]
+    },
+    {
+      "address": 1593,
+      "opcode": 46,
+      "name": "LOGICAL_NOT",
+      "operation": "! 1",
+      "operands": [
+        1
+      ]
+    },
+    {
+      "address": 1596,
+      "opcode": 43,
+      "name": "PROPERTY_SET",
+      "operation": "v11[1] = v13",
+      "operands": [
+        "v11",
+        1,
+        "v13"
+      ]
+    },
+    {
+      "address": 1600,
+      "opcode": 61,
+      "name": "CALL_METHOD",
+      "operation": "obj.method(...args)",
+      "operands": []
+    },
+    {
+      "address": 1604,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load v2",
+      "operands": [
+        "v2"
+      ]
+    },
+    {
+      "address": 1607,
+      "opcode": 72,
+      "name": "GET_OUTER_VAR",
+      "operation": "outer[name]",
+      "operands": []
+    },
+    {
+      "address": 1610,
+      "opcode": 82,
+      "name": "LOAD_CONST",
+      "operation": "load 1",
+      "operands": [
+        1
+      ]
+    },
+    {
+      "address": 1613,
+      "opcode": 16,
+      "name": "ADD_CONST",
+      "operation": "v4 + v12",
+      "operands": [
+        "v4",
+        "v12"
+      ]
+    }
+  ]
+}
